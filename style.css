@@ -35,8 +35,9 @@ body {
         padding: 0 7vw;
         margin: auto;
     }
+
     .left-nav-ul li,
-    .hide{
+    .hide {
         display: none;
     }
 
@@ -64,7 +65,8 @@ body {
         font-weight: 500;
         text-decoration: none;
     }
-    .burger-menu{
+
+    .burger-menu {
         position: absolute;
         top: 0;
         left: 0;
@@ -82,22 +84,23 @@ body {
         padding: 9px;
     }
 
-    .burger-peices{
+    .burger-peices {
         background-color: white;
         width: 4vw;
         height: 3px;
         border-radius: 10005px;
     }
 
-    .burger-menu-h{
+    .burger-menu-h {
         border: 1px solid black;
 
     }
 
-    .burger-peices-h{
+    .burger-peices-h {
         background-color: black;
 
     }
+
     .right-nav-ul {
         display: flex;
         align-items: center;
@@ -154,7 +157,7 @@ body {
     .intro-video {
         width: 100%;
         height: 100vh;
-        object-fit: cover; 
+        object-fit: cover;
         display: block;
     }
 
@@ -518,10 +521,11 @@ body {
         row-gap: .75rem;
     }
 
-    .footer-logo{
+    .footer-logo {
         width: 50vw;
         height: 30vh;
     }
+
     .intro-img-container {
         position: relative;
         width: 100%;
@@ -544,8 +548,8 @@ body {
     }
 
     .section-title-who-we {
-        font-size: 4.5rem;
-        line-height: 1;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
         font-weight: 700;
         width: 85vw;
         text-align: right;
@@ -555,8 +559,8 @@ body {
     .section-info-who-we {
         width: 85vw;
         text-align: right;
-        font-size: 1.875rem;
-        line-height: 2.25rem;
+        font-size: 1.25rem;
+        line-height: 1.45rem;
         padding-top: .75rem;
         padding-bottom: .75rem;
         margin-top: 2.5rem;
@@ -569,9 +573,12 @@ body {
 
     .about-statistics-container {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: space-evenly;
+        align-items: center;
         padding-bottom: 56px;
     }
+
 
     .about-statistics-card {
         display: flex;
@@ -580,6 +587,24 @@ body {
         gap: 25px;
         width: 15rem;
         margin-bottom: 2.5rem;
+
+
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+
+    .about-statistics-card-number {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        color: #4a31b0;
+    }
+
+    .about-statistics-card-tag {
+
+        font-size: 1rem;
+        line-height: 1.5rem;
+
     }
 
     .improvement-academy-section {
@@ -591,8 +616,8 @@ body {
 
     .improvement-academy-container {
         display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
         justify-content: space-evenly;
         align-items: center;
         gap: 6rem;
@@ -630,9 +655,11 @@ body {
 
     .global-competitions-container {
         display: flex;
+        flex-direction: column-reverse;
         width: 95vw;
         justify-content: space-evenly;
         padding-bottom: 4rem;
+        gap: 5rem;
     }
 
     .global-competitions-card {
@@ -658,20 +685,26 @@ body {
 
     .academy-address {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         padding: 3.5rem 2.5rem;
         align-items: center;
+        margin-bottom: 5rem;
+
     }
+
 
     .map-container iframe {
         border-radius: 15px;
-        width: 40vw;
+        width: 90vw;
     }
 
     .address-text-content {
         padding: 5rem;
-        text-align: right;
-        width: 45vw;
+        text-align: center;
+        font-size: 1.25rem;
+        width: 80vw;
+        line-height: 1.75rem;
     }
 
 
@@ -687,9 +720,11 @@ body {
         justify-content: center;
 
     }
-    .burger-menu{
+
+    .burger-menu {
         display: none;
     }
+
     .main-nav {
         display: flex;
         position: fixed;
