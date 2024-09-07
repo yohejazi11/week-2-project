@@ -17,7 +17,7 @@ body {
 }
 
 /*for Mobile or tap screen*/
-@media only screen and (max-width:980px) {
+@media only screen and (max-width:991px) {
     header {
         display: flex;
         justify-content: center;
