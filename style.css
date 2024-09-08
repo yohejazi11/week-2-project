@@ -218,6 +218,9 @@ body {
         color: white;
     }
 
+
+
+
     .program-camp-section {
         background-color: #f3f4f8;
         display: flex;
@@ -227,6 +230,69 @@ body {
 
     .program-camp-container {
         display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .program-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        border-radius: 10px;
+        padding: 1rem;
+        width: 80vw;
+        height: 30vh;
+        background-color: white;
+        border-right: 10px solid #4a31b0;
+    }
+
+    .program-tag{
+        font-size: 1.5rem;
+        color: #4a31b0;
+    }
+
+    .program-title{
+        text-align: right;
+    }
+
+    .program-location-time{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .location{
+
+    }
+
+    .time{
+
+    }
+
+    .program-date-btn{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .program-date{
+
+    }
+
+    .program-btn{
+        padding: 5px 15px;
+        border: 1px solid #4a31b0;
+        border-radius:9999px ;
+        color: #4a31b0;
+        transition: .3s;
+    }
+
+    .program-btn:hover{
+        border: 1px solid #4a31b0;
+        background-color: #4a31b0;
+        color: white;
     }
 
     .more-program-btn {
@@ -874,6 +940,68 @@ body {
 
     .program-camp-container {
         display: flex;
+        gap: 4rem;
+    }
+
+    .program-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        border-radius: 10px;
+        padding: 1rem;
+        width: 20vw;
+        height: 30vh;
+        background-color: white;
+        border-right: 10px solid #4a31b0;
+    }
+
+    .program-tag{
+        font-size: 1.5rem;
+        color: #4a31b0;
+    }
+
+    .program-title{
+        text-align: right;
+    }
+
+    .program-location-time{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .location{
+
+    }
+
+    .time{
+
+    }
+
+    .program-date-btn{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .program-date{
+
+    }
+
+    .program-btn{
+        padding: 5px 15px;
+        border: 1px solid #4a31b0;
+        border-radius:9999px ;
+        color: #4a31b0;
+        transition: .3s;
+    }
+
+    .program-btn:hover{
+        border: 1px solid #4a31b0;
+        background-color: #4a31b0;
+        color: white;
     }
 
     .more-program-btn {
